@@ -1,0 +1,117 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main {
+	padding-inline: 2rem;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-block: 0.8rem;
+}
+nav h4 {
+	color: rgb(184, 148, 85);
+	font-size: 30px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	width: 40rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+nav > div > a {
+	text-decoration: none;
+	margin-right: 1rem;
+	text-transform: capitalize;
+}
+
+button {
+	background: rgb(184, 148, 85);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 0.6rem;
+}
+header {
+	height: 570px;
+	width: 100%;
+	/* background-image: linear-gradient(
+			to right,
+			rgb(184, 148, 85) 10%,
+			transparent
+		),
+		url(https://media.istockphoto.com/id/1276569660/photo/photo-of-young-curly-girl.jpg?s=612x612&w=0&k=20&c=u8ky7-vf2JKV_jL4qsS3nfWE-3k2DaObo11TMcFshXg=);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+header div:last-child {
+	width: 600px;
+	padding-left: 80px;
+	padding-top: 200px;
+	color: #fff;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+p {
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-transform: lowercase;
+}
+
+form {
+	margin-top: 20px;
+	width: 400px;
+	display: flex;
+}
+input[type="text"] {
+	width: 80%;
+	border: none;
+}
+
+input[type="text"]:focus {
+	border: none;
+}
+form > button {
+	background-color: #665643;
+	color: #cad1d3;
+	width: 20%;
+	text-align: center;
+	border-radius: 0 0.4rem 0.4rem 0;
+}
+header div:first-child {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+}
+
+video {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+}
